@@ -21,7 +21,6 @@ func TestRepositoriesService_ListTagProtection(t *testing.T) {
 
 	mux.HandleFunc("/repos/o/r/tags/protection", func(w http.ResponseWriter, r *http.Request) {
 		testMethod(t, r, "GET")
-		// testHeader(t, r, "Accept", mediaTypeTopicsPreview)
 
 		fmt.Fprint(w, `[{"id":1, "pattern":"tag1"},{"id":2, "pattern":"tag2"}]`)
 	})

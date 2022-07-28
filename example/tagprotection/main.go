@@ -1,3 +1,10 @@
+// Copyright 2022 The go-github AUTHORS. All rights reserved.
+//
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+// Package demo provides an app that shows how to use the github package on
+// Google App Engine.
 package main
 
 import (
